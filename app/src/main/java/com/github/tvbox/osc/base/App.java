@@ -63,10 +63,7 @@ public class App extends MultiDexApplication {
         }
         
         Hawk.put(HawkConfig.SEARCH_VIEW, 1);
-        Hawk.put(HawkConfig.HISTORY_NUM, 1);
-        Hawk.put(HawkConfig.LIVE_CHANNEL, 1);
         Hawk.put(HawkConfig.API_URL, "https://cdn.staticaly.com/gh/liu673cn/box/main/m.json");
-	Hawk.put(HawkConfig.EPG_URL, "https://cdn.staticaly.com/gh/liu673cn/box/main/m.json");
 		
     }
 
